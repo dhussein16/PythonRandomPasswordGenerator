@@ -21,8 +21,8 @@ secondUpperCaseLetter = chr(random.randint(65, 90))
 firstLowerCaseLetter = chr(random.randint(97, 122))
 secondLowerCaseLetter = chr(random.randint(97, 122))
 
-firstDigit = chr(random.randint(0,9))
-secondDigit = chr(random.randint(0,9))
+firstDigit = str(random.randint(0,9))
+secondDigit = str(random.randint(0,9))
 
 # ISSUES HERE: for some reason, it sometimes generates an integer instead of the punctuation. Why is that?git 
 firstPuncSymbol = chr(random.randint(33,64))
@@ -42,10 +42,10 @@ passwordChars = [
     firstPuncSymbol, secondPuncSymbol
 ]
 
-# Shuffle the list to ensure randomness
+# Shuffle the list to place the characters into random positions
 shuffle(passwordChars)
 
-# Join the list into a single string
+# Join the list into a single string called password
 password = ''.join(passwordChars)
 
 print(password)
