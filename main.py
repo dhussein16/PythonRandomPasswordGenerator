@@ -24,7 +24,7 @@ secondLowerCaseLetter = chr(random.randint(97, 122))
 firstDigit = chr(random.randint(0,9))
 secondDigit = chr(random.randint(0,9))
 
-# ISSUES HERE: for some reason, it sometimes generates an integer instead of the punctuation. Why is that?
+# ISSUES HERE: for some reason, it sometimes generates an integer instead of the punctuation. Why is that?git 
 firstPuncSymbol = chr(random.randint(33,64))
 secondPuncSymbol = chr(random.randint(33,64))
 
