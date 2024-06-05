@@ -8,5 +8,5 @@ values of alphanumeric symbols, we are able to generate different passwords
 every time. The rules used to create these passwords is as follows
   * The passwords are 8 characters long
   * Passwords will have two uppercase and two lowercase letters
-  # * Passwords will have 2 digits from 0 - 9
-  # * Two punctuation signs such as !, ?, " , #, or something else
+  * Passwords will have 2 digits from 0 - 9
+  * Two punctuation signs such as !, ?, " , #, or something else
